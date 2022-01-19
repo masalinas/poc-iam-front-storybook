@@ -105,6 +105,14 @@ Storybook Component sample
 
 ## Start Storybook UI Designer
 
+Start the Storybook UI executing:
+
 ```shell
 yarn storybook
+```
+
+Open the Storybook UI from this URI:
+
+```shell
+http://localhost:6006/
 ```
