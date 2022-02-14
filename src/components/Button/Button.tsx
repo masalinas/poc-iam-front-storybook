@@ -33,8 +33,8 @@ const Button = ({
   primary = true,
   backgroundColor,
   size = "medium",
-  onClick,
   label,
+  onClick,
 }: ButtonProps) => {
   const mode = primary
     ? "storybook-button--primary"

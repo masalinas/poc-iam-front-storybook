@@ -5,6 +5,17 @@ import Button, { ButtonProps } from "./Button";
 
 export default {
   title: "Components/Button",
+  parameters: {
+    info: {
+      text: `
+          description or documentation about my component, supports markdown
+
+          ~~~js
+          <Button>Click Here</Button>
+          ~~~
+        `
+      },
+  },
   component: Button,
   argTypes: {
     backgroundColor: { control: 'color' },
